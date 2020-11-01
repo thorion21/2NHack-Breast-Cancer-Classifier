@@ -1,0 +1,6 @@
+Django>=3.0,<4.0
+psycopg2-binary>=2.8
+Pillow>=8.0.1
+TensorFlow>=2.1
+Keras==2.4.3
+NumPy==1.16.0

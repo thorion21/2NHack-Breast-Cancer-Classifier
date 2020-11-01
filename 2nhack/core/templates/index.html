@@ -1,0 +1,255 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+   <title>2NHack - Breast Cancer</title>
+{% endblock %}
+
+{% block content %}
+
+<html lang="en">
+<head>
+   <!-- Basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- Mobile Metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Site Metas -->
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+
+   </head>
+   <body id="home_page" class="home_page">
+      <!-- header -->
+      {% block header %}
+      {% endblock %}
+      
+      <!-- section -->
+      <section class="main_full banner_section_top">
+        <div class="container-fluid">
+          <div class="row">
+             <div class="full">
+                  <div class="slider_banner">
+                    <img class="img-responsive" src="{% static 'images/slider_img.png' %}" alt="#" />
+                      <div class="slide_cont">
+                        <div class="slider_cont_inner">
+
+                        </div>
+                      </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section -->
+    
+     <!-- about section -->
+      <section class="layout_padding section about_dottat">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 text_align_center">
+                  <div class="full heading_s1">
+                     <h2>2NHack Hackaton: Prima platformă online de machine learning pentru detecția cancerului mamar!</h2>
+                  </div>
+                  <div class="full">
+                     <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <div class="about_img margin_top_30  text_align_center">
+                     <img src="{% static 'images/ab_img.png' %}" alt="#" />
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end about section -->
+
+      <!-- section -->
+      <section class="layout_padding section">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 text_align_center">
+                  <div class="full heading_s1">
+                     <h2>Salvăm oameni prin tehnologie!</h2>
+                  </div>
+                  <div class="full">
+                     <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+
+              <div class="col-md-4 text_align_center">
+                 <div class="cours">
+                   <img class="img-responsive" src="{% static 'images/cour1.png' %}" alt="#" />
+                 </div>
+                 <h3>Încarcă o mamografie</h3>
+                 <p>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re</p>
+              </div>  
+
+              <div class="col-md-4 text_align_center">
+                 <div class="cours">
+                   <img class="img-responsive" src="{% static 'images/cour2.png' %}" alt="#" />
+                 </div>
+                 <h3>Lasă algoritmul să funcționeze...</h3>
+                 <p>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re</p>
+              </div> 
+
+              <div class="col-md-4 text_align_center">
+                 <div class="cours">
+                   <img class="img-responsive" src="{% static 'images/cour3.png' %}" alt="#" />
+                 </div>
+                 <h3>Ai primit rezultatul!</h3>
+                 <p>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re</p>
+              </div> 
+
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="full center">
+                      <a class="blue_bt" href="#">Citește mai mult</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end section -->
+
+
+      <!-- section -->
+      <section class="layout_padding section">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12 text_align_center">
+                  <div class="full heading_s1">
+                     <h2>Nu ne asculta pe noi..</h2>
+                     <h2>Ascultă-i pe medicii care folosesc această platformă!</h2>
+                  </div>
+                  <div class="full">
+                     <p class="large">In ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br>consequat. Duis aute irure dolor in re</p>
+                  </div>
+               </div>
+               <div class="col-md-12 testimonial">
+                  <div class="full text_align_center">
+                     <img src="{% static 'images/testimon.png' %}" alt="#" />
+                     <h3><span class="theme_color_text">Zaharia Andreescu</span><br><small>Oncologie</small></h3>
+                  </div>
+                  <div class="full margin_top_30 text_align_center">
+<!--                    <h4>I have successfully complated</h4>-->
+                    <p>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re</p>
+                  </div>
+               </div>
+            </div>
+        </div>
+      </section>
+      <!-- end section -->
+
+    
+      <!-- section -->
+      <section class="section blue_pattern_bg" style="background-color: #3b3bff;">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="full">
+                     <h4>Vrei să ne pui o întrebare?</h4>
+                     <p>adipiscing elit, sed do eiusmod tempor incididunt ut<br>labore et dolore magna aliqua.</p>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                 <div class="form_subribe">
+                    <form>
+                       <input type="email" name="email" placeholder="Scrie aici" />
+                       <button>Trimite</button>
+                    </form>
+                 </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end section -->
+     
+      <!-- footer -->
+      <footer class="footer layout_padding">
+         <div class="container">
+            <div class="row">
+
+               <div class="col-md-4 col-sm-12">
+                  <a href="index.html"><img class="img-responsive" src="{% static 'images/logo_footer.png' %}" alt="#" /></a>
+                  <div class="footer_link_heading">
+                     <div class="footer_menu margin_top_30">
+                     <ul>
+                        <li><a href="tel:9876543210">9876 543 210</a></li>
+                        <li><a href="#">demo@gmail.com</a></li>
+                        <li><a href="#"></a></li>
+                     </ul>
+                  </div>
+                  </div>
+               </div>
+               
+               <div class="col-md-8">
+                 <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                  <div class="footer_link_heading">
+                     <h3>Mai multe detalii?</h3>
+                  </div>
+                  <div class="footer_menu">
+                     <ul>
+                        <li><a href="#">Test1</a></li>
+                        <li><a href="#">Test1</a></li>
+                        <li><a href="#">Test3</a></li>
+                        <li><a href="#">Test4</a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="col-md-4 col-sm-12">
+                  <div class="footer_link_heading">
+                     <h3>Categorii</h3>
+                  </div>
+                  <div class="footer_menu">
+                    <ul>
+                       <li><a href="#">Test5</a></li>
+                       <li><a href="#">Test6</a></li>
+                       <li><a href="#">Test7</a></li>
+                       <li><a href="#">Test8</a></li>
+                    </ul>
+                  </div>
+               </div>
+               
+               <div class="col-md-4 col-sm-12">
+                  <div class="footer_link_heading">
+                     <h3>Link-uri utile</h3>
+                  </div>
+                  <div class="footer_menu">
+                    <ul>
+                       <li><a href="#">Test14</a></li>
+                       <li><a href="#">Test9</a></li>
+                       <li><a href="#">Test10</a></li>
+                       <li><a href="#">Test11</a></li>
+                       <li><a href="#">Test12</a></li>
+                       <li><a href="#">Test13</a></li>
+                    </ul>
+                  </div>
+               </div>
+                 </div>
+               </div>
+               
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Core JavaScript
+         ================================================== -->
+      <script src="{% static 'js/jquery.min.js' %}"></script>
+      <script src="{% static 'js/tether.min.js' %}"></script>
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+      <script src="{% static 'js/parallax.js' %}"></script>
+      <script src="{% static 'js/animate.js' %}"></script>
+      <script src="{% static 'js/ekko-lightbox.js' %}"></script>
+      <script src="{% static 'js/custom.js' %}"></script>
+   </body>
+</html>
+
+{% endblock %}
