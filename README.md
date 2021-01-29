@@ -1,6 +1,6 @@
-# 2NHack-Echipa-prepelita
+# 2NHack Breast Cancer Classifier
 ML algorithm for detecting breast cancer in mammograms
 
-Solutia web -> directorul: 2nhack 
+Web solution -> directory: 2nhack 
 
-Solutia ML -> directorul: 2nhackML
+ML solution -> directory: 2nhackML
